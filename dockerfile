@@ -46,4 +46,4 @@ RUN python myagent.py download-files
 
 # Run the application.
 ENTRYPOINT ["python", "main.py"]
-CMD ["start"]
+CMD ["dev"]
